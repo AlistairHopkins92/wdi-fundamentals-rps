@@ -47,7 +47,6 @@ function playToFive() {
     console.log("Let's play Rock, Paper, Scissors");
     var playerWins = 0;
     var computerWins = 0;
-    var round = 0;
     while ((playerWins < 5) && (computerWins < 5)){
         var playerMove =  getPlayerMove();
         var computerMove = getComputerMove();
